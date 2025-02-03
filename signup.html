@@ -97,55 +97,56 @@
 
 
 
-    <!-- Signup Start -->
-    <div class="container-xxl py-2 mt-4">
-        <div class="container">
-
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.5s ">
-
-                <center>
-                    <form class="shadow p-4" style="max-width: 550px;">
-                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                            <h1 class="mb-5 bg-white text-center px-3">Signup</h1>
-
-                        </div>
-                        <div class="row g-3">
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="username" placeholder="Username">
-                                    <label for="Username">Username</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Email Address">
-                                    <label for="email">Email Address</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="password" class="form-control" id="password" placeholder="Password">
-                                    <label for="password">Password</label>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <button class="btn text-light w-100 py-3" type="submit"><a
-                                        href="./sucess_signup.html">Signup</a></button>
-                            </div>
-
-                            <div class="col-12 text-center">
-                                <p>Already have an account? <a class="text-decoration-none" href="login.html">Login</a>
-                                </p>
+   <!-- Signup Start -->
+<div class="container-xxl py-2 mt-4">
+    <div class="container">
+        <div class="row g-4 wow fadeInUp" data-wow-delay="0.5s ">
+            <center>
+                <!-- Updated Form with Formcarry -->
+                <form class="shadow p-4" style="max-width: 550px;" method="POST" action="https://formcarry.com/s/MbM7u13T-G0">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="mb-5 bg-white text-center px-3">Signup</h1>
+                    </div>
+                    <div class="row g-3">
+                        <!-- Username Field -->
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Username" required>
+                                <label for="username">Username</label>
                             </div>
                         </div>
-                    </form>
-                </center>
+                        <!-- Email Field -->
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                                <label for="email">Email Address</label>
+                            </div>
+                        </div>
+                        <!-- Password Field -->
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
 
-            </div>
+                        <!-- Signup Button -->
+                        <div class="col-12">
+                            <button class="btn text-light w-100 py-3" type="submit">Signup</button>
+                        </div>
+
+                        <!-- Link to Login if already have an account -->
+                        <div class="col-12 text-center">
+                            <p>Already have an account? <a class="text-decoration-none" href="login.html">Login</a></p>
+                        </div>
+                    </div>
+                </form>
+            </center>
         </div>
     </div>
-    <!-- Signup End -->
+</div>
+<!-- Signup End -->
+
 
 
     <!-- Footer Start -->
