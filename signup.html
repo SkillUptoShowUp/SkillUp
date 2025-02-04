@@ -217,6 +217,14 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    //Added
+    <script>
+        document.querySelector("form").addEventListener("submit", function() {
+            setTimeout(function(){
+                location.reload();
+            }, 3000);
+        });
+    </script>
 </body>
 
 </html>
