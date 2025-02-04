@@ -103,7 +103,8 @@
         <div class="row g-4 wow fadeInUp" data-wow-delay="0.5s ">
             <center>
                 <!-- Updated Form with Formcarry -->
-                <form class="shadow p-4" style="max-width: 550px;" method="POST" action="https://formcarry.com/s/MbM7u13T-G0" novalidate>
+                <form class="shadow p-4" style="max-width: 550px;" method="POST" action="https://formcarry.com/s/MbM7u13T-G0">
+                    <input type="hidden" name="_redirect" value="https://skilluptoshowup.github.io/SkillUp/signup.html">
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                         <h1 class="mb-5 bg-white text-center px-3">Signup</h1>
                     </div>
@@ -217,13 +218,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    //Added
-    <script>
-        document.querySelector("form").addEventListener("submit", function() {
-            setTimeout(function(){
-                location.reload();
-            }, 3000);
-        });
+   
     </script>
 </body>
 
